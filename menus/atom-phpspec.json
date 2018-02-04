@@ -1,0 +1,42 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle atom-phpspec",
+        "command": "atom-phpspec:toggle"
+      },
+      {
+        "label": "Run class",
+        "command": "atom-phpspec:run-class"
+      },
+      {
+        "label": "Toggle output",
+        "command": "atom-phpspec:toggle-output"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "phpspec",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "atom-phpspec:toggle"
+            },
+            {
+              "label": "Run class",
+              "command": "atom-phpspec:run-class"
+            },
+            {
+              "label": "Toggle output",
+              "command": "atom-phpspec:toggle-output"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

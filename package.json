@@ -1,0 +1,22 @@
+{
+  "name": "atom-phpspec",
+  "main": "./lib/atom-phpspec",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": [
+        "atom-phpspec:toggle",
+        "atom-phpspec:run-class",
+        "atom-phpspec:toggle-output"
+    ]
+  },
+  "repository": "https://github.com/atom/atom-phpspec",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
